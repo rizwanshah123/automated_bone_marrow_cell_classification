@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "557131135928",
+    "project_id": "bonemarrowclasificationapp",
+    "storage_bucket": "bonemarrowclasificationapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557131135928:android:c5ca57532f78f358436d4d",
+        "android_client_info": {
+          "package_name": "com.example.marrow_master"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557131135928-998krt04qmdujq8iunfbns1ec1fj7nj8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.marrow_master",
+            "certificate_hash": "54dfb264af169fe9e36cf00ad3e679547ad51137"
+          }
+        },
+        {
+          "client_id": "557131135928-u89anksfbaia5486rjn6eb5fd29fb7rr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0Q2idoGuwn4PaPckxb6Xoe5zA0IWkeDo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557131135928-u89anksfbaia5486rjn6eb5fd29fb7rr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
