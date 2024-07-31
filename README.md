@@ -1,3 +1,7 @@
+Here's the updated README file template with the provided details:
+
+---
+
 <h1>Automated Bone Marrow Cell Classification</h1>
 <p>This project automates the classification of bone marrow cells using advanced machine learning algorithms, integrated with a Flutter-based mobile application. By leveraging deep learning techniques and a diverse dataset of labeled microscopic cell images, the system aims to achieve high-precision identification of cell types. The primary objective is to streamline hematological diagnostics, enhancing both speed and accuracy while minimizing the workload on pathologists.</p>
 
@@ -52,15 +56,24 @@ python app.py
 
 <h2>API Endpoints</h2>
 
-<h3>Image Upload Endpoint</h3>
-<p><strong>Endpoint:</strong> /api/upload</p>
+<h3>Image Upload and Classification Endpoint</h3>
+<p><strong>Endpoint:</strong> /process-image</p>
 <p><strong>Method:</strong> POST</p>
-<p><strong>Description:</strong> Uploads a bone marrow cell image for classification.</p>
-
-<h3>Classification Result Endpoint</h3>
-<p><strong>Endpoint:</strong> /api/classify</p>
-<p><strong>Method:</strong> GET</p>
-<p><strong>Description:</strong> Returns the classification result for the uploaded image.</p>
+<p><strong>Description:</strong> Uploads a bone marrow cell image for classification and returns the predicted class along with its description.</p>
+<p><strong>Example Request:</strong></p>
+<pre><code>
+curl -X POST -F "image=@path_to_your_image.jpg" http://localhost:5000/process-image
+</code></pre>
+<p><strong>Example Response:</strong></p>
+<pre><code>
+{
+    "message": "Image processed successfully",
+    "predictions": {
+        "MYB": "Myeloblast: Precursor cell of granulocytes and monocytes...",
+        "PLM": "Plasma cell: Mature antibody-secreting cell of the B lymphocyte lineage..."
+    }
+}
+</code></pre>
 
 <h2>Project Structure</h2>
 <ul>
