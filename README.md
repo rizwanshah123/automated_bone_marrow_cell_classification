@@ -2,7 +2,7 @@
 
 
 <h1>Automated Bone Marrow Cell Classification</h1>
----
+
 
 <p>This project automates the classification of bone marrow cells using advanced machine learning algorithms, integrated with a Flutter-based mobile application. By leveraging deep learning techniques and a diverse dataset of labeled microscopic cell images, the system aims to achieve high-precision identification of cell types. The primary objective is to streamline hematological diagnostics, enhancing both speed and accuracy while minimizing the workload on pathologists.</p>
 
